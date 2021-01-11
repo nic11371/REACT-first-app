@@ -9,7 +9,6 @@ const App = () => {
 	return (
 		<div className="App App-header">
 			<Header />
-
 			<img src={logo} className="App-logo" alt="logo" />
 
 			<Content />
