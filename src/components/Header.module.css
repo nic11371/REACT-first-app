@@ -13,13 +13,13 @@
 	grid-row-end: 2;
 }
 
-.Header-item {
+.item {
 	vertical-align: middle;
 	margin: auto;
 	font-size: 34px;
 }
 
-.Header-logo {
+.logo {
 	margin: 0px 0px 0px 20px;
 	width: 50px;
 }

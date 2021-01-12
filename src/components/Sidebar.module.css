@@ -6,13 +6,19 @@
 	background-color: rgb(60, 82, 107);
 }
 
-.Sidebar-item {
+.Sidebar_item {
 	text-align: center;
 	display: block;
 	margin: 10px auto;
 	font-size: 20px;
+	line-height: 30px;
 }
 
-.Sidebar-item a {
+.Sidebar_item a {
 	color: rgb(114, 205, 221);
+}
+
+.activ {
+	border: 2px solid darkblue;
+	background-color: rgb(8, 8, 153);
 }
