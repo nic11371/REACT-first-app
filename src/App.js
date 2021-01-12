@@ -1,18 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/header';
-import Content from './components/content';
-import Footer from './components/footer'
+import { Header } from './components/Header';
+import Content from './components/Content';
+// import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
 
 
 const App = () => {
 	return (
-		<div className="App App-header">
+		<div className="App">
 			<Header />
-			<img src={logo} className="App-logo" alt="logo" />
-
+			<Sidebar />
 			<Content />
-			<Footer />
 		</div>
 	);
 }
