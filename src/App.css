@@ -86,10 +86,6 @@ h6 {
 	font-weight: 400;
 }
 
-.App-logo {
-	width: 50px;
-}
-
 .App {
 	display: grid;
 	grid-template-columns: 20% 80%;
