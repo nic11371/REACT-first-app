@@ -1,4 +1,4 @@
-import logo from './../img/logo.svg';
+import logo from '../../img/logo.svg';
 import css from "./Header.module.css";
 
 

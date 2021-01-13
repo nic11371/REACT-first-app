@@ -1,0 +1,23 @@
+.Article {
+	margin: 10px 10px 10px 10px;
+	border: 1px solid darkblue;
+	background-color: #494f5f;
+}
+
+.title {
+	font-size: 25px;
+	/* margin: 5px auto; */
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+}
+
+.image {
+	width: 100%;
+}
+
+.text {
+	font-size: 18px;
+	line-height: 20px;
+	margin: 10px 10px 10px 10px;
+	text-align: justify;
+}
