@@ -1,7 +1,7 @@
-.Article {
-	margin: 10px 10px 10px 10px;
-	border: 1px solid darkblue;
-	background-color: #494f5f;
+.NewsItem {
+	max-height: 200px;
+	min-height: 200px;
+	overflow: hidden;
 }
 
 .title {

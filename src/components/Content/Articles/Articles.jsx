@@ -1,4 +1,5 @@
 import Article from "../Article/Article";
+import { } from "./Articles.module.css";
 
 let text = 'Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют, пока не достигнут нужный объём.';
 let textMeh = `Впервые о лифте писал римский архитектор Витрувий, ссылавшийся, в свою очередь, на Архимеда, который построил подъёмный аппарат, вероятно, ещё в 236 году до н. э.[2]
@@ -28,6 +29,7 @@ let textMeh = `Впервые о лифте писал римский архит
 function Articles() {
 	return (
 		<div className="Articles">
+			<Article title='Полезная информация' text='О блоках и лифтах с которыми мы работает, а так же историю лифтов и т. д.' class='coments' />
 			<Article title='Директор' text={text} image='http://mospravda.ru/wp-content/uploads/2020/01/DI-jUwFXcAEJ4oA-750x450-%D1%81-800x509.jpg' />
 			<Article title='ИСтория лифтостроения' text={textMeh} image='https://upload.wikimedia.org/wikipedia/commons/f/f9/ElevatorPatentOtis1861.jpg' />
 

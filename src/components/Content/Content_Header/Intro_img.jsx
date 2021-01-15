@@ -1,10 +1,10 @@
 import css from "./Intro_img.module.css";
 
 
-function IntroImg(prop) {
+function IntroImg(props) {
 	return (
 		<div className={css.wraper}>
-			<img src={prop.image} alt="lift" />
+			<img src={props.image} className={css.image} alt="lift" />
 		</div>
 	)
 }

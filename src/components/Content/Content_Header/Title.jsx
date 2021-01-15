@@ -1,10 +1,10 @@
 import css from './Title.module.css';
 
-const Title = (prop) => {
+const Title = (props) => {
 	return (
 		<div className={css.Title}>
 			<h2>
-				{prop.title}
+				{props.title}
 			</h2>
 		</div>
 	)
