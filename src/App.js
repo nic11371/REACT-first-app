@@ -13,7 +13,6 @@ const App = () => {
 				<Header />
 				<Sidebar />
 				<Content />
-
 			</div>
 		</BrowserRouter>
 	);

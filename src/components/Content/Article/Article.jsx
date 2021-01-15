@@ -1,9 +1,8 @@
-import { Redirect } from "react-router-dom";
+// import { Redirect } from "react-router-dom";
 import css from "./Article.module.css";
 
 
 function Article(props) {
-	console.log(props);
 
 	if (props.location) {
 		props = props.location.props
